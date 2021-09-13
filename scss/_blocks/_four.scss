@@ -1,0 +1,119 @@
+.four{
+    margin: 100px 0 100px 0;
+    background-image: url('../images/four_bg.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 530px;
+    margin-left: -80px;
+    &__btn{
+        width: 356px;
+        height: 52px;
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        color: #0D444D;
+        padding: 14px 78px;
+        background: #C5E1E6;
+        box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+        border-radius: 100px;
+        margin-bottom: 259px;
+        margin-right: 50px;
+    }
+    &__nav{
+        margin-left: -18px;
+    }
+    &__menu{
+        height: 50px;
+        padding-top: 100px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #C5E1E6;
+    }
+}
+.feed__menu{
+    display: flex;
+    list-style-type: none;
+    margin-top: 140px;
+}
+.feed__item{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feed__item:last-child{
+    margin-right: 0;
+}
+.feed__one{
+    display: flex;
+    align-items: center;
+}
+.feed__two{
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+}
+.feed__three{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.feed__title{
+    width: 394px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C5E1E6;
+    margin-right: 10px;
+}
+.bg__feed{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+border-radius: 50%;
+padding: 44px 43px 37px 36px ;
+margin-bottom: 14px;
+margin-right: 225px;
+margin-left: 60px;
+}
+.bg__feed:nth-child(3){
+    margin: 0;
+}
+.bg__feed_two{
+    margin-left: 140px;
+    margin-right: 300px;
+}
+.bg__feed_one{
+    margin-left: 80px;
+   
+}
+.bg__feed_three{
+    margin: 0;
+    margin-left: -170px;
+    margin-bottom: 14px;
+}
+.feed__item__two{
+    position: absolute;
+    transform: translate(280px,50px);
+}
+.feed__item__three{
+    position: absolute;
+    transform: translate(770px,50px);
+}

@@ -1,0 +1,127 @@
+.section-1 {
+    padding: 0;
+    padding-top: 0px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 800px;
+
+&__wrapper{
+    width: 1480px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -65px;
+    margin-right: 0;
+}
+    &__box {
+        width: 683px;
+        // position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        width: 750px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 85px;
+        color: #F3F7F8;
+        margin-bottom: 27px;
+    }
+
+    &__text {
+        width: 480px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #F3F7F8;
+        margin-bottom: 87px;
+    }
+
+    &__link {
+        width: 258px;
+        height: 52px;
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        color: #0D444D;
+        padding: 14px 84px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+        border-radius: 100px;
+        margin-bottom: 259px;
+    }
+}
+.section__one_bg{
+    position: absolute;
+    top: 99px;
+}
+.panda__btn{
+    position: relative;
+}
+.picture {
+    margin-top: 48px;
+    margin-left:0px;
+
+    &__btn {
+        position: absolute;
+        transform: translate(350px,290px);
+        z-index: 1;
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .section-1 {
+        background: #E5E5E5;
+        background-image: url('../images/box.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+       & .container{
+           display: flex;
+       }
+        &__title {
+            font-size: 64px;
+            line-height: 76px;
+            width: 630px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+
+    .picture {
+        position: relative;
+
+        &__img {
+            width: 560px;
+            height: 464px;
+        }
+
+        &__btn {
+            position: absolute;
+            top: 215px;
+            right: 180px;
+
+            &--img {
+                width: 84px;
+                height: 84px;
+            }
+        }
+    }
+
+}
